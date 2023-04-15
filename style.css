@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(225, 232, 202);
+}
+
+.result{
+    display: none;
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 25px;
+
+}
+
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+
+.play{
+    width: 100px;
+    border: none;
+    height: 50px;
+   color: white;
+   background-color: rgb(85, 85, 201);
+   font-size: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.game{
+    display: block;
+}
+
+.content{
+    padding: 50px;
+
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 50px 0px;
+    
+}
+.answer{
+    font-size: 25px;
+    cursor: pointer;
+    
+    
+
+}
+
+
+
+.submit{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(142, 92, 142);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.submit:hover{
+    background-color: purple;
+}
